@@ -1,0 +1,38 @@
+You will implement a shapes application using Groovy.
+
+The user enters various shapes and their parameters. Your program will calculate the area of all these shapes and display it to the user. The application will be executed as follows.
+
+Please enter 's' for square, 'c' for circle, 'r' for rectangle, 'd' to display the area and 'q' to quit.
+
+-->s
+Enter the side of the square --> 4
+
+Please enter 's' for square, 'c' for circle, 'r' for rectangle, 'd' to display the area and 'q' to quit.
+
+-->r
+Enter the length and breadth of the rectangle(l,b)-->12,12
+
+Please enter 's' for square, 'c' for circle, 'r' for rectangle, 'd' to display the area and 'q' to quit.
+
+-->c
+Enter the radius of the circle --> 5
+
+Please enter 's' for square, 'c' for circle, 'r' for rectangle, 'd' to display the area and 'q' to quit.
+
+-->s
+Enter the side of the square --> 6
+
+Please enter 's' for square, 'c' for circle, 'r' for rectangle, 'd' to display the area and 'q' to quit. 
+
+-->d
+Area of square with side '4' is 16
+Area of rectangle with length '12' and breadth '12' is 144
+Area of circle with radius '5' is 78.5
+Area of square with side '6' is 36
+
+Please enter 's' for square, 'c' for circle, 'r' for rectangle, 'd' to display the area and 'q' to quit. 
+--> q
+
+Program ends.
+
+You have to handle invalid input also

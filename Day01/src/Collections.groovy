@@ -6,7 +6,7 @@ food.each {println it.key + ", " + it.value}
 
 langs = [:]
 langs += ["1":"Java"]
-langs += ["2":"C#"]
+langs += [2:"C#"]
 langs += ["3":"Ruby"]
 
 langs.each {println it.key + ": " + it.value}
