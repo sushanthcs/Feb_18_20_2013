@@ -22,6 +22,7 @@ countries << "India"
 countries << "USA"
 countries << "UK"
 countries.each {println it}
+println countries[0]
 println countries.class.name
 
 /*ArrayList<String> countries = new ArrayList<String>();
