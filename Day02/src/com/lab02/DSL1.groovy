@@ -1,4 +1,7 @@
 package com.lab02
+
+import static com.lab02.PizzaType.*
+
 order = [:]
 
 def Pizza(block){
@@ -33,7 +36,8 @@ def state(val){
 }
 
 Pizza {
-	type "large"
+	id = 101
+	type large
 	quantity 3
 	toppings "mushroom,onions"
 	address {
