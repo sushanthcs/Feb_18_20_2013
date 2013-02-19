@@ -10,4 +10,5 @@ class Person {
 	def methodMissing(String methodName,args){
 		println "Method ${methodName} not found"
 	}
+	
 }
