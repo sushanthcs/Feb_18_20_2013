@@ -9,6 +9,6 @@ class Car {
 		if(args){
 			props[propName] = args
 		}
-		return props[propName]
+		props[propName]
 	}
 }
