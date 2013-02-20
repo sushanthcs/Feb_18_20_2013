@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="E4LJBSL3AUMKO" name="com.durasoft.SimpleControllerSpec" tests="3" time="2.253" timestamp="2013-02-20T10:31:58">
+  <properties />
+  <testcase classname="com.durasoft.SimpleControllerSpec" name="invalid login" time="2.034" />
+  <testcase classname="com.durasoft.SimpleControllerSpec" name="valid login" time="0.09" />
+  <testcase classname="com.durasoft.SimpleControllerSpec" name="test Index" time="0.084" />
+  <system-out><![CDATA[--Output from invalid login--
+--UserName: admin, password: dfgffadmin
+--Output from valid login--
+--UserName: admin, password: admin
+--Output from test Index--
+]]></system-out>
+  <system-err><![CDATA[--Output from invalid login--
+--Output from valid login--
+--Output from test Index--
+]]></system-err>
+</testsuite>

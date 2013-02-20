@@ -1,0 +1,78 @@
+2013-02-20 16:00:38,812 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+flash.error == "Invalid Credentials"
+|     |     |
+|     |     false
+|     |     1 difference (94% similarity)
+|     |     Invalid (c)redentials
+|     |     Invalid (C)redentials
+|     Invalid credentials
+[error:Invalid credentials]
+
+	at com.durasoft.SimpleControllerSpec.invalid login(SimpleControllerSpec.groovy:22)
+2013-02-20 16:00:38,823 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+flash.error == "Invalid Credentials"
+|     |     |
+|     |     false
+|     |     1 difference (94% similarity)
+|     |     Invalid (c)redentials
+|     |     Invalid (C)redentials
+|     Invalid credentials
+[error:Invalid credentials]
+
+	at com.durasoft.SimpleControllerSpec.invalid login(SimpleControllerSpec.groovy:22)
+2013-02-20 16:00:38,845 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+flash.error == "Invalid Credentials"
+|     |     |
+|     |     false
+|     |     1 difference (94% similarity)
+|     |     Invalid (c)redentials
+|     |     Invalid (C)redentials
+|     Invalid credentials
+[error:Invalid credentials]
+
+	at com.durasoft.SimpleControllerSpec.invalid login(SimpleControllerSpec.groovy:22)
+2013-02-20 16:00:38,845 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+flash.error == "Invalid Credentials"
+|     |     |
+|     |     false
+|     |     1 difference (94% similarity)
+|     |     Invalid (c)redentials
+|     |     Invalid (C)redentials
+|     Invalid credentials
+[error:Invalid credentials]
+
+	at com.durasoft.SimpleControllerSpec.invalid login(SimpleControllerSpec.groovy:22)
+2013-02-20 16:00:38,854 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+flash.error == "Invalid Credentials"
+|     |     |
+|     |     false
+|     |     1 difference (94% similarity)
+|     |     Invalid (c)redentials
+|     |     Invalid (C)redentials
+|     Invalid credentials
+[error:Invalid credentials]
+
+	at com.durasoft.SimpleControllerSpec.invalid login(SimpleControllerSpec.groovy:22)
+2013-02-20 16:00:38,854 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+flash.error == "Invalid Credentials"
+|     |     |
+|     |     false
+|     |     1 difference (94% similarity)
+|     |     Invalid (c)redentials
+|     |     Invalid (C)redentials
+|     Invalid credentials
+[error:Invalid credentials]
+
+	at com.durasoft.SimpleControllerSpec.invalid login(SimpleControllerSpec.groovy:22)

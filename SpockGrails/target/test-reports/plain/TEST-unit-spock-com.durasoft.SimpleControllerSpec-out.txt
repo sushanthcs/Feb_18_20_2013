@@ -1,0 +1,5 @@
+--Output from invalid login--
+--UserName: admin, password: dfgffadmin
+--Output from valid login--
+--UserName: admin, password: admin
+--Output from test Index--
