@@ -3,6 +3,10 @@ package com.durasoft
 class Gorm1Controller {
 	PeopleService peopleService
 	
+	def loggingex(){
+		log.info("Logging example")
+	}
+	
 	static defaultAction = "save"
 	def sthg(){
 		render "Controller: ${this}"

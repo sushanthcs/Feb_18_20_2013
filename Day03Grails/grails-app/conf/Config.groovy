@@ -73,10 +73,17 @@ environments {
 log4j = {
     // Example of changing the log pattern for the default console appender:
     //
+	appenders {
+		file name:"infoLog",file:"C:/ibs.log"
+	}
+	root{
+		info "infoLog"
+	}
     //appenders {
     //    console name:'stdout', layout:pattern(conversionPattern: '%c{2} %m%n')
     //}
-
+	info infoLog: "grails.app.controllers.com.durasoft"
+	
     error  'org.codehaus.groovy.grails.web.servlet',        // controllers
            'org.codehaus.groovy.grails.web.pages',          // GSP
            'org.codehaus.groovy.grails.web.sitemesh',       // layouts
