@@ -4,6 +4,7 @@ class Person {
 	String name
 	int age
     static hasMany = [dogs:Dog,cars:Car]
+	PersonDetails personDetails
 	
 	static constraints = {
 		name nullable:false,maxLength:20,minLength:2
