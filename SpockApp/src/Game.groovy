@@ -4,10 +4,14 @@ class Game {
 	String message
 	boolean gameOver
 	def history = [:]
+	GameStore gameStore
 	
 	Game(){
 		target = (int)(Math.random()*100) 
 		message = ""
+	}
+	def storeResults(name){
+		gameStore.store(name, attempts)	
 	}
 	def play(guess){
 		check(guess)

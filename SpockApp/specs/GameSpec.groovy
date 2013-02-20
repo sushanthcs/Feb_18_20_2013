@@ -3,6 +3,20 @@ import spock.lang.Specification;
 class GameSpec extends Specification{
 	Game game
 
+	def "store results"(){
+		given:
+			def gameStoreMock = Mock(GameStore)
+			1 * gameStoreMock.store("Sam",3) >> true
+			game.gameStore = gameStoreMock
+				
+			game.target = 80
+			game.play(50)
+			game.play(60)
+			game.play(80)
+		expect:
+			game.storeResults("Sam")	
+			//game.storeResults("Sam")
+	}
 	def "game history values after game is over"(){
 		when:
 			game.target = 77
