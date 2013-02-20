@@ -13,10 +13,25 @@ class SimpleControllerSpec extends Specification {
 	def cleanup() {
 	}
 	
-	def "invalid login"() {
+	def "valid login2"() {
+		setup:
+			def service = Mock(AuthenticationService)
+			1 * service.authenticate("admin","admin") >> true
+			controller.authenticationService = service
 		when:
 			params.username = "admin"
+			params.password = "admin"
+			controller.login2()
+		then:
+			response.redirectedUrl == "/home/index"
+	}
+	
+	
+	def "invalid login"() {
+		setup:
+			params.username = "admin"
 			params.password = "dfgffadmin"
+		when:
 			controller.login()
 		then:
 			flash.error == "Invalid credentials"

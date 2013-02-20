@@ -1,6 +1,7 @@
 Testsuite: com.durasoft.SimpleControllerSpec
-Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 2.253 sec
+Tests run: 4, Failures: 0, Errors: 0, Time elapsed: 2.269 sec
 ------------- Standard Output ---------------
+--Output from valid login2--
 --Output from invalid login--
 --UserName: admin, password: dfgffadmin
 --Output from valid login--
@@ -8,11 +9,13 @@ Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 2.253 sec
 --Output from test Index--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
+--Output from valid login2--
 --Output from invalid login--
 --Output from valid login--
 --Output from test Index--
 ------------- ---------------- ---------------
 
-Testcase: invalid login took 2.034 sec
-Testcase: valid login took 0.09 sec
-Testcase: test Index took 0.084 sec
+Testcase: valid login2 took 1.985 sec
+Testcase: invalid login took 0.099 sec
+Testcase: valid login took 0.072 sec
+Testcase: test Index took 0.073 sec
