@@ -1,0 +1,3 @@
+class InvalidGuessException extends Exception{
+
+}
