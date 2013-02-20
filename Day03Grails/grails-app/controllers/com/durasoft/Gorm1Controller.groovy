@@ -1,6 +1,29 @@
 package com.durasoft
 
 class Gorm1Controller {
+	PeopleService peopleService
+	
+	static defaultAction = "save"
+	def sthg(){
+		render "Controller: ${this}"
+		render "PeopleService: ${peopleService}"
+	}
+	def sthg2(){
+		render "Controller: ${this}"
+		render "PeopleService: ${peopleService}"
+	}
+	def saveaccount(){
+		
+		def accountID = peopleService.createAccount()
+		render "Person with ${accountID} is created"
+	}
+	def save(){
+		String name = params.name
+		int age = params.age.toInteger()
+		def personId = peopleService.createPerson(name, age)
+		render "Person with ${personId} is created"	
+	}
+	
 	def criteria(){
 		
 		def cr = Person.createCriteria()
