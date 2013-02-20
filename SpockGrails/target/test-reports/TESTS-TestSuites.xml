@@ -1,28 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="E4LJBSL3AUMKO" id="0" name="SimpleControllerSpec" package="com.durasoft" tests="4" time="2.269" timestamp="2013-02-20T10:42:25">
+  <testsuite errors="0" failures="0" hostname="E4LJBSL3AUMKO" id="0" name="AuthenticationServiceSpec" package="com.durasoft" tests="1" time="2.154" timestamp="2013-02-20T10:53:43">
       <properties />
 
-      <testcase classname="com.durasoft.SimpleControllerSpec" name="valid login2" time="1.984" />
+      <testcase classname="com.durasoft.AuthenticationServiceSpec" name="test valid authentication" time="2.125" />
 
-      <testcase classname="com.durasoft.SimpleControllerSpec" name="invalid login" time="0.099" />
-
-      <testcase classname="com.durasoft.SimpleControllerSpec" name="valid login" time="0.071" />
-
-      <testcase classname="com.durasoft.SimpleControllerSpec" name="test Index" time="0.073" />
-
-      <system-out><![CDATA[--Output from valid login2--
---Output from invalid login--
---UserName: admin, password: dfgffadmin
---Output from valid login--
---UserName: admin, password: admin
---Output from test Index--
+      <system-out><![CDATA[--Output from test valid authentication--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from valid login2--
---Output from invalid login--
---Output from valid login--
---Output from test Index--
+      <system-err><![CDATA[--Output from test valid authentication--
 ]]></system-err>
 
   </testsuite>

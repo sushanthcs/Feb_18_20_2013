@@ -1,0 +1,10 @@
+Testsuite: com.durasoft.AuthenticationServiceSpec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 2.154 sec
+------------- Standard Output ---------------
+--Output from test valid authentication--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test valid authentication--
+------------- ---------------- ---------------
+
+Testcase: test valid authentication took 2.125 sec

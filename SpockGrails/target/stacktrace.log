@@ -100,3 +100,21 @@ java.lang.NullPointerException: Cannot invoke method authenticate() on null obje
 java.lang.NullPointerException: Cannot invoke method authenticate() on null object
 	at com.durasoft.SimpleController.login2(SimpleController.groovy:10)
 	at com.durasoft.SimpleControllerSpec.valid login2(SimpleControllerSpec.groovy:20)
+2013-02-20 16:23:05,201 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.durasoft.AuthenticationServiceSpec.mockDomain() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.durasoft.SpockUser, [com.durasoft.SpockUser : null]]
+	at com.durasoft.AuthenticationServiceSpec.test valid authentication(AuthenticationServiceSpec.groovy:18)
+2013-02-20 16:23:05,238 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.durasoft.AuthenticationServiceSpec.mockDomain() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.durasoft.SpockUser, [com.durasoft.SpockUser : null]]
+	at com.durasoft.AuthenticationServiceSpec.test valid authentication(AuthenticationServiceSpec.groovy:18)
+2013-02-20 16:23:05,272 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.durasoft.AuthenticationServiceSpec.mockDomain() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.durasoft.SpockUser, [com.durasoft.SpockUser : null]]
+	at com.durasoft.AuthenticationServiceSpec.test valid authentication(AuthenticationServiceSpec.groovy:18)
+2013-02-20 16:23:05,287 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.durasoft.AuthenticationServiceSpec.mockDomain() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.durasoft.SpockUser, [com.durasoft.SpockUser : null]]
+	at com.durasoft.AuthenticationServiceSpec.test valid authentication(AuthenticationServiceSpec.groovy:18)
+2013-02-20 16:23:05,322 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.durasoft.AuthenticationServiceSpec.mockDomain() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.durasoft.SpockUser, [com.durasoft.SpockUser : null]]
+	at com.durasoft.AuthenticationServiceSpec.test valid authentication(AuthenticationServiceSpec.groovy:18)
+2013-02-20 16:23:05,325 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.durasoft.AuthenticationServiceSpec.mockDomain() is applicable for argument types: (java.lang.Class, java.util.ArrayList) values: [class com.durasoft.SpockUser, [com.durasoft.SpockUser : null]]
+	at com.durasoft.AuthenticationServiceSpec.test valid authentication(AuthenticationServiceSpec.groovy:18)

@@ -3,10 +3,8 @@ package com.durasoft
 import grails.test.mixin.TestFor
 import spock.lang.Specification
 
-/**
- * See the API for {@link grails.test.mixin.services.ServiceUnitTestMixin} for usage instructions
- */
 @TestFor(AuthenticationService)
+@Mock(SpockUser)
 class AuthenticationServiceSpec extends Specification {
 
 	def setup() {
@@ -15,6 +13,12 @@ class AuthenticationServiceSpec extends Specification {
 	def cleanup() {
 	}
 
-	void "test something"() {
+	void "test valid authentication"() {
+		setup:
+			def spockUser1 = new SpockUser(userName:"admin",password:"admin",role:"Customer")
+			mockDomain(SpockUser,[spockUser1])
+		expect:
+			service.authenticate("admin","admin") != null
+			service.authenticate("admin","admin").role == "Customer"
 	}
 }
